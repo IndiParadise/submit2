@@ -1,0 +1,7 @@
+{
+  "user": "developerexpert",
+  "password": "d3v3l0p3r3xp3rt",
+  "host": "localhost",
+  "port": 5432,
+  "database": "threaddb_test"
+}
