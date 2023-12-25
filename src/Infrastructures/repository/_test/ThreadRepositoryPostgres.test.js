@@ -23,6 +23,7 @@ describe('ThreadRepositoryPostgres', () => {
       });
       const fakeIdGenerator = () => '123';
       const threadRepositoryPostgres = new ThreadRepositoryPostgres(pool, fakeIdGenerator);
+      await UsersTableTestHelper.addUser({ id: 'user-123' });
       const addedThread = await threadRepositoryPostgres.addThread(newThread);
       expect(addedThread.id).toEqual('thread-123');
       expect(addedThread.title).toEqual(newThread.title);

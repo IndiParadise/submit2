@@ -1,7 +1,7 @@
 {
-  "user": "developerexpert",
-  "password": "d3v3l0p3r3xp3rt",
-  "host": "localhost",
+  "user": "postgres",
+  "password": "supersecretpassword123",
+  "host": "forum-api.cdkdkkd8cvtr.ap-southeast-1.rds.amazonaws.com",
   "port": 5432,
-  "database": "threaddb_test"
+  "database": "forumapi_test"
 }
